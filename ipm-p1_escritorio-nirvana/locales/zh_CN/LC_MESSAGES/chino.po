@@ -1,0 +1,380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-27 02:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: view.py:87
+msgid "Advertencia"
+msgstr "警告"
+
+#: view.py:100 view.py:183 view.py:219 view.py:438
+msgid "Cerrar"
+msgstr "关闭"
+
+#: view.py:138 view.py:158 view.py:697
+msgid "Lista Pacientes"
+msgstr "患者名单"
+
+#: view.py:142 view.py:577
+msgid "Editar Medicamentos"
+msgstr "编辑药物"
+
+#: view.py:146 view.py:636
+msgid "Medicamentos"
+msgstr "药物"
+
+#: view.py:154
+msgid "Cargando..."
+msgstr "加载中..."
+
+#: view.py:166
+msgid "Añadir Posologia"
+msgstr "添加剂量"
+
+#: view.py:172
+msgid "Hora:"
+msgstr "小时："
+
+#: view.py:174
+msgid "Ejemplo: 22"
+msgstr "例如: 22"
+
+#: view.py:176
+msgid "Minuto:"
+msgstr "分钟："
+
+#: view.py:178
+msgid "Ejemplo: 10"
+msgstr "例如: 10"
+
+#: view.py:180 view.py:216 view.py:434
+msgid "Aceptar"
+msgstr "确认"
+
+#: view.py:206 view.py:317
+msgid "Añadir Ingesta"
+msgstr "添加摄入量"
+
+#: view.py:212
+msgid "Fecha:"
+msgstr "日期："
+
+#: view.py:214
+msgid "Ejemplo: 2024-09-01-T09:10"
+msgstr "例如: 2024-09-01-T09:10"
+
+#: view.py:241 view.py:263 view.py:335 view.py:354 view.py:559 view.py:618
+#: view.py:646
+msgid "ID: "
+msgstr "ID："
+
+#: view.py:242 view.py:336
+msgid "Hora: "
+msgstr "小时："
+
+#: view.py:243 view.py:337
+msgid "Minuto: "
+msgstr "分钟："
+
+#: view.py:244 view.py:265 view.py:338 view.py:356
+msgid "ID Medicación: "
+msgstr "药物ID："
+
+#: view.py:250 view.py:270 view.py:541
+msgid "Borrar"
+msgstr "删除"
+
+#: view.py:264 view.py:355
+msgid "Fecha: "
+msgstr "日期："
+
+#: view.py:292 view.py:380
+msgid "Posologías"
+msgstr "剂量"
+
+#: view.py:293 view.py:381
+msgid "Ingestas"
+msgstr "摄入量"
+
+#: view.py:303
+msgid "Añadir Posología"
+msgstr "添加剂量"
+
+#: view.py:328 view.py:408
+msgid "Posologías & Ingestas"
+msgstr "剂量和摄入量"
+
+#: view.py:412
+msgid "Add Medication"
+msgstr "添加药物"
+
+#: view.py:418
+msgid "Medication Name:"
+msgstr "药物名称："
+
+#: view.py:420
+msgid "Ejemplo: CLOTRIMAZOL Polvo"
+msgstr "例如：克霉唑粉末"
+
+#: view.py:422
+msgid "Dosage:"
+msgstr "剂量："
+
+#: view.py:424
+msgid "Ejemplo: 1.0"
+msgstr "例如: 1.0"
+
+#: view.py:426
+msgid "Treatment:"
+msgstr "治疗："
+
+#: view.py:428
+msgid "Ejemplo: 94"
+msgstr "例如: 94"
+
+#: view.py:430
+msgid "Start Date:"
+msgstr "开始日期："
+
+#: view.py:432
+msgid "Ejemplo: 2014-01-02"
+msgstr "例如: 2014-01-02"
+
+#: view.py:500
+msgid "Error editando: {str(e)}"
+msgstr "编辑错误: {str(e)}"
+
+#: view.py:510
+msgid "\t\t      Nombre"
+msgstr "\t\t      名称"
+
+#: view.py:510
+msgid "\t\t\t\t\t   Dosis"
+msgstr "\t\t\t\t\t   剂量"
+
+#: view.py:510
+msgid "\t\t\t\t\tDuracion"
+msgstr "\t\t\t\t\t时长"
+
+#: view.py:510
+msgid "\t\t    Fecha Inicio"
+msgstr "\t\t    开始日期"
+
+#: view.py:510
+msgid "      Guardar"
+msgstr "保存"
+
+#: view.py:510
+msgid "\t Borrar"
+msgstr "删除"
+
+#: view.py:510
+msgid "\t Editar Posologias & Ingestas"
+msgstr "\t 编辑剂量和摄入量"
+
+#: view.py:537
+msgid "Guardar"
+msgstr "保存"
+
+#: view.py:545
+msgid "Editar Posologias & Ingestas"
+msgstr "编辑剂量和摄入量"
+
+#: view.py:559 view.py:618
+msgid "Paciente:"
+msgstr "患者："
+
+#: view.py:559 view.py:618
+msgid "Codigo: "
+msgstr "代码："
+
+#: view.py:564
+msgid "Añadir"
+msgstr "添加"
+
+#: view.py:600
+msgid "Nombre"
+msgstr "名称"
+
+#: view.py:600
+msgid "Dosis"
+msgstr "剂量"
+
+#: view.py:600
+msgid "Duracion"
+msgstr "时长"
+
+#: view.py:600
+msgid "ID"
+msgstr "ID"
+
+#: view.py:600
+msgid "Fecha Inicio"
+msgstr "开始日期"
+
+#: view.py:600
+msgid "ID de Paciente"
+msgstr "患者ID"
+
+#: view.py:608
+msgid "Ver Posologias & Ingestas"
+msgstr "查看剂量和摄入量"
+
+#: view.py:623
+msgid "Editar"
+msgstr "编辑"
+
+#: view.py:644
+msgid "Nombre:"
+msgstr "名称："
+
+#: view.py:645
+msgid "Código: "
+msgstr "代码："
+
+#: view.py:652
+msgid "Ver"
+msgstr "查看"
+
+#: view.py:670
+msgid "Buscar"
+msgstr "搜索"
+
+#: view.py:673
+msgid "Mostrar Lista Completa"
+msgstr "显示完整列表"
+
+#: view.py:677
+msgid "Nombre, Apellido, Codigo..."
+msgstr "名字，姓氏，代码..."
+
+#: presenter.py:40
+msgid "No hay pacientes"
+msgstr "没有患者"
+
+#: presenter.py:80
+msgid "El servidor está caído"
+msgstr "服务器已崩溃"
+
+#: presenter.py:85
+msgid "Error con el perfil del paciente: "
+msgstr "患者档案错误："
+
+#: presenter.py:91
+msgid "Error búsqueda: "
+msgstr "搜索错误："
+
+#: presenter.py:97
+msgid "Error campo búsqueda: "
+msgstr "搜索字段错误："
+
+#: presenter.py:103
+msgid "Error editando: "
+msgstr "编辑错误："
+
+#: presenter.py:109
+msgid "Error al volver al buscador: "
+msgstr "返回搜索时出错："
+
+#: presenter.py:122
+msgid "Error al volver a los medicamentos: "
+msgstr "返回药物时出错："
+
+#: presenter.py:137
+msgid "Error al volver a la edición: "
+msgstr "返回编辑时出错："
+
+#: presenter.py:143
+msgid "Error al mostrar la vista de edición: "
+msgstr "显示编辑视图时出错："
+
+#: presenter.py:157
+msgid "El medicamento fue borrado correctamente en la base de datos!"
+msgstr "药物已成功从数据库中删除！"
+
+#: presenter.py:159 presenter.py:266 presenter.py:281
+msgid "ERROR = No se pudo realizar el borrado!"
+msgstr "错误 = 无法完成删除！"
+
+#: presenter.py:163
+msgid "Error borrando el medicamento: "
+msgstr "删除药物时出错："
+
+#: presenter.py:169
+msgid "Error al añadir el medicamento: "
+msgstr "添加药物时出错："
+
+#: presenter.py:183 presenter.py:294 presenter.py:309
+msgid "Se añadió correctamente"
+msgstr "添加成功"
+
+#: presenter.py:185 presenter.py:296 presenter.py:311
+msgid "No se ha podido añadir!"
+msgstr "无法添加！"
+
+#: presenter.py:189
+msgid "Error añadiendo: "
+msgstr "添加时出错："
+
+#: presenter.py:202
+msgid "Guardado correctamente!"
+msgstr "保存成功！"
+
+#: presenter.py:205
+msgid "No se ha podido guardar!"
+msgstr "无法保存！"
+
+#: presenter.py:209
+msgid "Error guardando valores: "
+msgstr "保存值时出错："
+
+#: presenter.py:222
+msgid "Error mostrando edit Posologías e Ingestas: "
+msgstr "显示剂量和摄入编辑时出错："
+
+#: presenter.py:235
+msgid "Error mostrando Posologías e Ingestas: "
+msgstr "显示剂量和摄入时出错："
+
+#: presenter.py:245
+msgid "Error llenando la lista de Posologías: "
+msgstr "填充剂量列表时出错："
+
+#: presenter.py:255
+msgid "Error llenando la lista de Ingestas: "
+msgstr "填充摄入列表时出错："
+
+#: presenter.py:264 presenter.py:279
+msgid "Borrado realizado en la base de datos!"
+msgstr "已从数据库删除！"
+
+#: presenter.py:270
+msgid "Error borrando Posología: "
+msgstr "删除剂量时出错："
+
+#: presenter.py:285
+msgid "Error borrando Ingesta: "
+msgstr "删除摄入时出错："
+
+#: presenter.py:299 presenter.py:321
+msgid "Error añadiendo posología: "
+msgstr "添加剂量时出错："
+
+#: presenter.py:314 presenter.py:327
+msgid "Error añadiendo ingesta: "
+msgstr "添加摄入时出错："
+

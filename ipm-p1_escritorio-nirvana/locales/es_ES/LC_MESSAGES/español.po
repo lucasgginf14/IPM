@@ -1,0 +1,380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-27 02:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: view.py:87
+msgid "Advertencia"
+msgstr "Advertencia"
+
+#: view.py:100 view.py:183 view.py:219 view.py:438
+msgid "Cerrar"
+msgstr "Cerrar"
+
+#: view.py:138 view.py:158 view.py:697
+msgid "Lista Pacientes"
+msgstr "Lista de Pacientes"
+
+#: view.py:142 view.py:577
+msgid "Editar Medicamentos"
+msgstr "Editar Medicamentos"
+
+#: view.py:146 view.py:636
+msgid "Medicamentos"
+msgstr "Medicamentos"
+
+#: view.py:154
+msgid "Cargando..."
+msgstr "Cargando..."
+
+#: view.py:166
+msgid "Añadir Posologia"
+msgstr "Añadir Posología"
+
+#: view.py:172
+msgid "Hora:"
+msgstr "Hora:"
+
+#: view.py:174
+msgid "Ejemplo: 22"
+msgstr "Ejemplo: 22"
+
+#: view.py:176
+msgid "Minuto:"
+msgstr "Minuto:"
+
+#: view.py:178
+msgid "Ejemplo: 10"
+msgstr "Ejemplo: 10"
+
+#: view.py:180 view.py:216 view.py:434
+msgid "Aceptar"
+msgstr "Aceptar"
+
+#: view.py:206 view.py:317
+msgid "Añadir Ingesta"
+msgstr "Añadir Ingesta"
+
+#: view.py:212
+msgid "Fecha:"
+msgstr "Fecha:"
+
+#: view.py:214
+msgid "Ejemplo: 2024-09-01-T09:10"
+msgstr "Ejemplo: 2024-09-01-T09:10"
+
+#: view.py:241 view.py:263 view.py:335 view.py:354 view.py:559 view.py:618
+#: view.py:646
+msgid "ID: "
+msgstr "ID: "
+
+#: view.py:242 view.py:336
+msgid "Hora: "
+msgstr "Hora: "
+
+#: view.py:243 view.py:337
+msgid "Minuto: "
+msgstr "Minuto: "
+
+#: view.py:244 view.py:265 view.py:338 view.py:356
+msgid "ID Medicación: "
+msgstr "ID Medicación: "
+
+#: view.py:250 view.py:270 view.py:541
+msgid "Borrar"
+msgstr "Borrar"
+
+#: view.py:264 view.py:355
+msgid "Fecha: "
+msgstr "Fecha: "
+
+#: view.py:292 view.py:380
+msgid "Posologías"
+msgstr "Posologías"
+
+#: view.py:293 view.py:381
+msgid "Ingestas"
+msgstr "Ingestas"
+
+#: view.py:303
+msgid "Añadir Posología"
+msgstr "Añadir Posología"
+
+#: view.py:328 view.py:408
+msgid "Posologías & Ingestas"
+msgstr "Posologías & Ingestas"
+
+#: view.py:412
+msgid "Add Medication"
+msgstr "Agregar Medicamento"
+
+#: view.py:418
+msgid "Medication Name:"
+msgstr "Nombre del Medicamento:"
+
+#: view.py:420
+msgid "Ejemplo: CLOTRIMAZOL Polvo"
+msgstr "Ejemplo: CLOTRIMAZOL Polvo"
+
+#: view.py:422
+msgid "Dosage:"
+msgstr "Dosis:"
+
+#: view.py:424
+msgid "Ejemplo: 1.0"
+msgstr "Ejemplo: 1.0"
+
+#: view.py:426
+msgid "Treatment:"
+msgstr "Tratamiento:"
+
+#: view.py:428
+msgid "Ejemplo: 94"
+msgstr "Ejemplo: 94"
+
+#: view.py:430
+msgid "Start Date:"
+msgstr "Fecha de Inicio:"
+
+#: view.py:432
+msgid "Ejemplo: 2014-01-02"
+msgstr "Ejemplo: 2014-01-02"
+
+#: view.py:500
+msgid "Error editando: {str(e)}"
+msgstr "Error editando: {str(e)}"
+
+#: view.py:510
+msgid "\t\t      Nombre"
+msgstr "\t\t      Nombre"
+
+#: view.py:510
+msgid "\t\t\t\t\t   Dosis"
+msgstr "\t\t\t\t\t   Dosis"
+
+#: view.py:510
+msgid "\t\t\t\t\tDuracion"
+msgstr "\t\t\t\t\tDuración"
+
+#: view.py:510
+msgid "\t\t    Fecha Inicio"
+msgstr "\t\t    Fecha Inicio"
+
+#: view.py:510
+msgid "      Guardar"
+msgstr "      Guardar"
+
+#: view.py:510
+msgid "\t Borrar"
+msgstr "\t Borrar"
+
+#: view.py:510
+msgid "\t Editar Posologias & Ingestas"
+msgstr "\t Editar Posologías & Ingestas"
+
+#: view.py:537
+msgid "Guardar"
+msgstr "Guardar"
+
+#: view.py:545
+msgid "Editar Posologias & Ingestas"
+msgstr "Editar Posologías & Ingestas"
+
+#: view.py:559 view.py:618
+msgid "Paciente:"
+msgstr "Paciente:"
+
+#: view.py:559 view.py:618
+msgid "Codigo: "
+msgstr "Código: "
+
+#: view.py:564
+msgid "Añadir"
+msgstr "Añadir"
+
+#: view.py:600
+msgid "Nombre"
+msgstr "Nombre"
+
+#: view.py:600
+msgid "Dosis"
+msgstr "Dosis"
+
+#: view.py:600
+msgid "Duracion"
+msgstr "Duración"
+
+#: view.py:600
+msgid "ID"
+msgstr "ID"
+
+#: view.py:600
+msgid "Fecha Inicio"
+msgstr "Fecha de Inicio"
+
+#: view.py:600
+msgid "ID de Paciente"
+msgstr "ID de Paciente"
+
+#: view.py:608
+msgid "Ver Posologias & Ingestas"
+msgstr "Ver Posologías & Ingestas"
+
+#: view.py:623
+msgid "Editar"
+msgstr "Editar"
+
+#: view.py:644
+msgid "Nombre:"
+msgstr "Nombre:"
+
+#: view.py:645
+msgid "Código: "
+msgstr "Código: "
+
+#: view.py:652
+msgid "Ver"
+msgstr "Ver"
+
+#: view.py:670
+msgid "Buscar"
+msgstr "Buscar"
+
+#: view.py:673
+msgid "Mostrar Lista Completa"
+msgstr "Mostrar Lista Completa"
+
+#: view.py:677
+msgid "Nombre, Apellido, Codigo..."
+msgstr "Nombre, Apellido, Código..."
+
+#: presenter.py:40
+msgid "No hay pacientes"
+msgstr "No hay pacientes"
+
+#: presenter.py:80
+msgid "El servidor está caído"
+msgstr "El servidor está caído"
+
+#: presenter.py:85
+msgid "Error con el perfil del paciente: "
+msgstr "Error con el perfil del paciente: "
+
+#: presenter.py:91
+msgid "Error búsqueda: "
+msgstr "Error de búsqueda: "
+
+#: presenter.py:97
+msgid "Error campo búsqueda: "
+msgstr "Error en el campo de búsqueda: "
+
+#: presenter.py:103
+msgid "Error editando: "
+msgstr "Error editando: "
+
+#: presenter.py:109
+msgid "Error al volver al buscador: "
+msgstr "Error al volver al buscador: "
+
+#: presenter.py:122
+msgid "Error al volver a los medicamentos: "
+msgstr "Error al volver a los medicamentos: "
+
+#: presenter.py:137
+msgid "Error al volver a la edición: "
+msgstr "Error al volver a la edición: "
+
+#: presenter.py:143
+msgid "Error al mostrar la vista de edición: "
+msgstr "Error al mostrar la vista de edición: "
+
+#: presenter.py:157
+msgid "El medicamento fue borrado correctamente en la base de datos!"
+msgstr "El medicamento fue borrado correctamente en la base de datos!"
+
+#: presenter.py:159 presenter.py:266 presenter.py:281
+msgid "ERROR = No se pudo realizar el borrado!"
+msgstr "ERROR = No se pudo realizar el borrado!"
+
+#: presenter.py:163
+msgid "Error borrando el medicamento: "
+msgstr "Error borrando el medicamento: "
+
+#: presenter.py:169
+msgid "Error al añadir el medicamento: "
+msgstr "Error al añadir el medicamento: "
+
+#: presenter.py:183 presenter.py:294 presenter.py:309
+msgid "Se añadió correctamente"
+msgstr "Se añadió correctamente"
+
+#: presenter.py:185 presenter.py:296 presenter.py:311
+msgid "No se ha podido añadir!"
+msgstr "No se ha podido añadir!"
+
+#: presenter.py:189
+msgid "Error añadiendo: "
+msgstr "Error añadiendo: "
+
+#: presenter.py:202
+msgid "Guardado correctamente!"
+msgstr "Guardado correctamente!"
+
+#: presenter.py:205
+msgid "No se ha podido guardar!"
+msgstr "No se ha podido guardar!"
+
+#: presenter.py:209
+msgid "Error guardando valores: "
+msgstr "Error guardando valores: "
+
+#: presenter.py:222
+msgid "Error mostrando edit Posologías e Ingestas: "
+msgstr "Error mostrando la edición de Posologías e Ingestas: "
+
+#: presenter.py:235
+msgid "Error mostrando Posologías e Ingestas: "
+msgstr "Error mostrando Posologías e Ingestas: "
+
+#: presenter.py:245
+msgid "Error llenando la lista de Posologías: "
+msgstr "Error llenando la lista de Posologías: "
+
+#: presenter.py:255
+msgid "Error llenando la lista de Ingestas: "
+msgstr "Error llenando la lista de Ingestas: "
+
+#: presenter.py:264 presenter.py:279
+msgid "Borrado realizado en la base de datos!"
+msgstr "Borrado realizado en la base de datos!"
+
+#: presenter.py:270
+msgid "Error borrando Posología: "
+msgstr "Error borrando Posología: "
+
+#: presenter.py:285
+msgid "Error borrando Ingesta: "
+msgstr "Error borrando Ingesta: "
+
+#: presenter.py:299 presenter.py:321
+msgid "Error añadiendo posología: "
+msgstr "Error añadiendo posología: "
+
+#: presenter.py:314 presenter.py:327
+msgid "Error añadiendo ingesta: "
+msgstr "Error añadiendo ingesta: "
+

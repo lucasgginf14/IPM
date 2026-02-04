@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Informes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Consulta de Informes</h1>
+    </header>
+    <main>
+        <section id="seleccion-periodo">
+            <h2>Buscar Paciente</h2>
+            <form id="formulario" aria-labelledby="seleccion-periodo">
+                <div class="form-group">
+                    <label for="codigo-paciente">Introduce el código del paciente:</label>
+                    <input 
+                        type="text" 
+                        id="codigo-paciente" 
+                        pattern="\d{3}-\d{2}-\d{4}" 
+                        placeholder="Ej: 123-45-6789" 
+                        required 
+                        title="Debe tener el formato XXX-XX-XXXX, solo números y guiones"
+                        aria-describedby="codigo-paciente-error">
+                    <small id="codigo-paciente-error" class="error-message" aria-live="polite"></small>
+                </div>
+                <div class="form-group">
+                    <label for="opciones-periodo">Selecciona un período:</label>
+                    <select id="opciones-periodo" aria-required="true" aria-describedby="opciones-periodo-error">
+                        <option value="" disabled selected>Selecciona una opción</option>
+                        <option value="ultimo-mes">Último mes</option>
+                        <option value="ultimos-dias">Últimos días</option>
+                        <option value="rango-fechas">Rango de fechas</option>
+                    </select>
+                    <small id="opciones-periodo-error" class="error-message" aria-live="polite"></small>
+                </div>
+                <div class="form-group" id="extra-opciones" aria-live="polite"></div>
+                <div class="form-group">
+                    <button type="submit" id="generar-informe">Generar informe</button>
+                </div>
+            </form>
+        </section>
+        <section id="resultado-informe" aria-live="polite">
+            <h2>Informe</h2>
+            <article id="datos-paciente">
+                <h3>Datos del Paciente</h3>
+                <p id="nombre-paciente"></p>
+                <p id="codigo-paciente-info"></p>
+                <p id="apellido-paciente"></p>
+            </article>
+            <article>
+                <h3>Medicación pautada</h3>
+                <p id="nombre-med"></p>
+                <p id="dosis"></p>
+                <p id="duracion-tratamiento"></p>
+                <p id="id"></p>
+                <p id="fecha-inicial"></p>
+                <p id="id-paciente"></p>
+                <p id="horas-pos"></p>
+                <p id="hora-posologia"></p>
+            </article>
+            <article>
+                <h3>Tomas realizadas</h3>
+                <ul id="tomas-lista" aria-label="Lista de tomas realizadas"></ul>
+            </article>
+            <article>
+                <h3>Errores/desviaciones</h3>
+                <ul id="errores-lista" aria-label="Lista de errores o desviaciones"></ul>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Diseñado siguiendo los estándares WCAG 2.1. © Curso 24/25.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
